@@ -2,7 +2,7 @@
 
 import React from "react";
 import { ArrowUp, BarChart3, Heart } from "lucide-react";
-import { OWNER_INFO } from "@/data/portfolioData";
+import { portfolioData } from '../data/portfolioData';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
