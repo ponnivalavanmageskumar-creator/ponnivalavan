@@ -12,8 +12,8 @@ import {
   Sparkles,
   ArrowUpRight,
 } from "lucide-react";
-import { EXPERIENCE_DATA } from "@/data/portfolioData";
-import { TiltCard } from "./ui/TiltCard";
+import { EXPERIENCE_DATA } from "../data/portfolioData";
+import { TiltCard } from "./TiltCard";
 
 export const Experience: React.FC = () => {
   return (
