@@ -15,7 +15,9 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/": ["./"]
+      "@/": ["./"],
+      "@/data/": ["./data/"],
+      "@/components/": ["./components/"]
     },
     "plugins": [
       {
