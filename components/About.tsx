@@ -12,10 +12,9 @@ import {
   ArrowUpRight,
   Zap,
 } from "lucide-react";
-import { CountUp } from "./CountUp";
-import { TiltCard } from "./TiltCard";
-import { portfolioData } from "../data/portfolioData";
-
+import { CountUp } from './CountUp';
+import { TiltCard } from './TiltCard';
+import { portfolioData } from '../data/portfolioData';
 export const About: React.FC = () => {
   return (
     <section id="about" className="relative py-20 lg:py-32 overflow-hidden">
