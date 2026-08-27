@@ -23,8 +23,8 @@ import {
   MONTHLY_TREND_DATA,
   CHANNEL_DATA,
   FUNNEL_DATA,
-} from "../data/analyticsData";
-import { TiltCard } from './ui/TiltCard';
+} import { analyticsData } from '../data/analyticsData';
+import { TiltCard } from './TiltCard';
 
 type ViewTab = "performance" | "revenue" | "funnel" | "channels" | "growth";
 
