@@ -13,7 +13,7 @@ import {
   Award,
   Zap,
 } from "lucide-react";
-import { GlowButton } from "./ui/GlowButton";
+import { GlowButton } from './GlowButton';
 import { CommandCenterVisual } from "./CommandCenterVisual";
 import { OWNER_INFO } from "@/data/portfolioData";
 
