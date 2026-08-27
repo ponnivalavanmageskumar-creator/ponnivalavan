@@ -16,7 +16,7 @@ import {
   Clock,
   ArrowRight,
 } from "lucide-react";
-import { OWNER_INFO } from "@/data/portfolioData";
+import { OWNER_INFO } from "../data/portfolioData";
 import { GlowButton } from "./ui/GlowButton";
 
 export const Contact: React.FC = () => {
