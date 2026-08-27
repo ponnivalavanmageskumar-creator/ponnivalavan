@@ -14,7 +14,6 @@ import { WhyMe } from '../components/WhyMe';
 import { Contact } from '../components/Contact';
 import { Footer } from '../components/Footer';
 import { AuroraBackground } from '../components/ui/AuroraBackground';
-
 export default function Home() {
   return (
     <main className="relative min-h-screen bg-background text-foreground overflow-x-hidden selection:bg-indigo-500 selection:text-white">
