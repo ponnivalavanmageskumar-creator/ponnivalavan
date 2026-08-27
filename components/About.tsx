@@ -12,11 +12,24 @@ import {
   ArrowUpRight,
   Zap,
 } from "lucide-react";
-import { CountUp } from './CountUp';
-import { TiltCard } from './TiltCard';
-import { portfolioData } from '../data/portfolioData';
+import { CountUp } from "./CountUp";
+import { TiltCard } from "./TiltCard";
+import { portfolioData } from "../data/portfolioData";
+
 export const About: React.FC = () => {
   return (
+    <section id="about" className="relative py-20 lg:py-32 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Content starts here */}
+        <div className="text-center mb-16">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-slate-400">
+            About Me
+          </h2>
+        </div>
+      </div>
+    </section>
+  );
+};
     <section id="about" className="relative py-20 lg:py-32 overflow-hidden">
       {/* Background Section Accent */}
       <div className="absolute top-1/2 -left-48 w-96 h-96 bg-primary/10 rounded-full blur-[120px] pointer-events-none" />
